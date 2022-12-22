@@ -5,6 +5,7 @@ this is line 1 from user1
 4
 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 this is line 2 from user2
 6
@@ -20,3 +21,5 @@ this is line 2 from user3
 14
 15
 >>>>>>> ee92ee8eb0fe4c7e86d9f14bce939d8fed26ebc3
+=======
+>>>>>>> parent of ee92ee8 (cfm--1 usr3)
