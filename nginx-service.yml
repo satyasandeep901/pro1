@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  ports:
+  - port: 8080
+    targetPort: 80
+  selector:
+    app: demoapp   # here selector app name and metadata labels app should be same to establish the connection from pod to service file
+
+  type: NodePort
